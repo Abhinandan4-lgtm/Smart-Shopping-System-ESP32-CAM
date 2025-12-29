@@ -61,9 +61,8 @@ Smart-Shopping-System-ESP32-CAM/
     ├── Orange.jpg
     ├── Mango.jpg
     └── Grapes.jpg
-
+    
 ---
-
 ## ▶️ How to Run
 
  1. Install Python libraries
