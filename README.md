@@ -41,18 +41,41 @@ Website Table (Price, Quantity, Total)
 - HTML/CSS
 
 ---
+## 📁 Folder Structure
 
+│
+├── README.md
+├── requirements.txt
+│
+├── esp32_cam_server/
+│ └── esp32_cam_server.ino
+│
+├── qr_generation/
+│ └── generate_qr_codes.py
+│
+├── web_app/
+│ ├── app.py
+│ ├── scanner.py
+│ ├── templates/
+│ │ └── index.html
+│ └── static/
+│ └── qrcodes/
+│ ├── Apple.jpg
+│ ├── Banana.jpg
+│ ├── Orange.jpg
+│ ├── Mango.jpg
+│ └── Grapes.jpg
 ---
 
 ## ▶️ How to Run
 
-## 1. Install Python libraries
+ 1. Install Python libraries
 
 pip install -r requirements.txt
-## 2. Generate QR Codes
+ 2. Generate QR Codes
 python qr_generation/generate_qr_codes.py
 
-## 3. Upload ESP32-CAM Code
+ 3. Upload ESP32-CAM Code
 
 Open esp32_cam_server.ino
 
@@ -60,10 +83,10 @@ Board: AI Thinker ESP32-CAM
 
 Upload via FTDI / Arduino UNO (USB-Serial)
 
-## 4. Run Website
+ 4. Run Website
 python web_app/app.py
 
-## 5. Run Scanner
+ 5. Run Scanner
 python web_app/scanner.py
 
 ### 📸 ESP32-CAM Stream URL
