@@ -74,9 +74,11 @@ Website Table (Price, Quantity, Total)
     pip install -r requirements.txt
 
 2. Generate QR Codes
+    ```
     python qr_generation/generate_qr_codes.py
 
 3. Upload ESP32-CAM Code
+    ```
     Open esp32_cam_server.ino
     Board: AI Thinker ESP32-CAM
     Upload via FTDI / Arduino UNO (USB-Serial)
@@ -86,8 +88,10 @@ Website Table (Price, Quantity, Total)
     python web_app/app.py
 
 5. Run Scanner
+    ```
     python web_app/scanner.py
 
 📸 ESP32-CAM Stream URL
+
     http://<ESP32_IP>/cam-hi.jpg
 
