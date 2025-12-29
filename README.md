@@ -44,7 +44,6 @@ Website Table (Price, Quantity, Total)
 
 ## 📁 Folder Structure
 
-    ```text
     Smart-Shopping-System-ESP32-CAM/
     ├── README.md
     ├── requirements.txt
@@ -78,17 +77,17 @@ Website Table (Price, Quantity, Total)
     python qr_generation/generate_qr_codes.py
 
 3. Upload ESP32-CAM Code
-Open esp32_cam_server.ino
-Board: AI Thinker ESP32-CAM
-Upload via FTDI / Arduino UNO (USB-Serial)
+    Open esp32_cam_server.ino
+    Board: AI Thinker ESP32-CAM
+    Upload via FTDI / Arduino UNO (USB-Serial)
 
 4. Run Website
    ```bash 
     python web_app/app.py
 
 5. Run Scanner
-python web_app/scanner.py
+    python web_app/scanner.py
 
 📸 ESP32-CAM Stream URL
-http://<ESP32_IP>/cam-hi.jpg
+    http://<ESP32_IP>/cam-hi.jpg
 
