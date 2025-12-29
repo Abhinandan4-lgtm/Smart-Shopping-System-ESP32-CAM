@@ -1,5 +1,4 @@
 # Smart-Shopping-System-ESP32-CAM
-# Smart Shopping System using ESP32-CAM
 
 This project implements a smart shopping system where products are identified using external QR codes.  
 An ESP32-CAM captures images of QR codes, Python decodes them, and a Flask-based website updates the shopping cart in real time.
