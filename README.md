@@ -41,7 +41,7 @@ Website Table (Price, Quantity, Total)
 - HTML/CSS
 
 ---
-## 📁 Folder Structure
+ 📁 Folder Structure
 
 │
 ├── README.md
