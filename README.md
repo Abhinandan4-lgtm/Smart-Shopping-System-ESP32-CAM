@@ -42,7 +42,7 @@ Website Table (Price, Quantity, Total)
 
 ---
 
-## 📁 Folder Structure
+### 📁 Folder Structure
 
 │
 ├── README.md
