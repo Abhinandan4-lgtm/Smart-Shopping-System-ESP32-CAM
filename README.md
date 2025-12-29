@@ -73,9 +73,9 @@ Website Table (Price, Quantity, Total)
 ## ▶️ How to Run
 
 ### 1. Install Python libraries
-```bash
+
 pip install -r requirements.txt
-2. Generate QR Codes
+### 2. Generate QR Codes
 python qr_generation/generate_qr_codes.py
 
 3. Upload ESP32-CAM Code
