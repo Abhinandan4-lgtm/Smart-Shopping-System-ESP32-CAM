@@ -48,24 +48,19 @@ Smart-Shopping-System-ESP32-CAM/
 ├── README.md
 ├── requirements.txt
 │
-├── esp32_cam_server/
-│ └── esp32_cam_server.ino
+├── esp32_cam_server.ino
+├── scanner.py
+├── app.py
+├── generate_qr_codes.py
 │
-├── qr_generation/
-│ └── generate_qr_codes.py
+├── index.html
 │
-├── web_app/
-│ ├── app.py
-│ ├── scanner.py
-│ ├── templates/
-│ │ └── index.html
-│ └── static/
-│ └── qrcodes/
-│ ├── Apple.jpg
-│ ├── Banana.jpg
-│ ├── Orange.jpg
-│ ├── Mango.jpg
-│ └── Grapes.jpg
+└── qrcodes/
+    ├── Apple.jpg
+    ├── Banana.jpg
+    ├── Orange.jpg
+    ├── Mango.jpg
+    └── Grapes.jpg
 
 ---
 
