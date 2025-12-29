@@ -41,8 +41,7 @@ Website Table (Price, Quantity, Total)
 - HTML/CSS
 
 ---
- ## 📁 Folder Structure
-
+## 📁 Folder Structure
 Smart-Shopping-System-ESP32-CAM/
 │
 ├── README.md
@@ -66,6 +65,7 @@ Smart-Shopping-System-ESP32-CAM/
 │ ├── Orange.jpg
 │ ├── Mango.jpg
 │ └── Grapes.jpg
+
 ---
 
 ## ▶️ How to Run
