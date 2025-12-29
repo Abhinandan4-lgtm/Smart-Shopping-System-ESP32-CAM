@@ -42,6 +42,7 @@ Website Table (Price, Quantity, Total)
 
 ---
 ## 📁 Folder Structure
+
 Smart-Shopping-System-ESP32-CAM/
 │
 ├── README.md
